@@ -1,3 +1,5 @@
+// hello world!
+
 package com.example.samandashprojectno1;
 
 import android.app.Activity;
