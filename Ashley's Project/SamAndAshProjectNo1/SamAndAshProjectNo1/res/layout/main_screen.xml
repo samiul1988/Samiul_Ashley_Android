@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainscreenbgd"
+    android:orientation="vertical" >
+ 
+<ScrollView 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">"
+    
+    <Button
+        android:id="@+id/sam"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Sam"
+        android:textStyle="bold" 
+        android:textSize="50sp" />
+    
+    <Button
+        android:id="@+id/ash"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Ash"
+        android:textStyle="bold" 
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/end"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="End"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+    
+    <Button
+        android:id="@+id/ListV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:textStyle="bold" 
+        android:textSize="50sp" />
+    
+    <Button
+        android:id="@+id/tutorial2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tutorial 2"
+        android:textStyle="bold" 
+        android:textSize="50sp" />
+    
+    <Button
+        android:id="@+id/tutorial3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tutorial 3"
+        android:textStyle="bold" 
+        android:textSize="50sp" />
+    
+    <Button
+        android:id="@+id/tutorial4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Tutorial 4"
+        android:textStyle="bold" 
+        android:textSize="50sp" />
+    </LinearLayout>
+</ScrollView>
+</LinearLayout>
