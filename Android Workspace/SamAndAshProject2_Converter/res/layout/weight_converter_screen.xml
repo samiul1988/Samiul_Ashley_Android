@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/weight"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Weight Converter"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Weight Input:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+    
+     <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Conversion Options:"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/s_weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/weight"
+        android:prompt="@string/weight_options" />
+
+    <Button
+        android:id="@+id/convert_button_weight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CONVERT!!!" />
+    
+    <TextView
+        android:id="@+id/weightOutput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+    </TextView>
+    
+   <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:gravity="fill_horizontal"
+       android:orientation="horizontal" >
+
+    	<Button
+    	    android:id="@+id/weight_to_main_button"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="50dp"
+    	    android:gravity="center"
+    	    android:text="Go to Main Menu" />
+    	
+    	<Button
+    	    android:id="@+id/weight_to_temp_button"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:layout_marginTop="50dp"
+    	    android:gravity="center"
+    	    android:text="Go to Temperature Converter" />
+    
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SamAndAshProject2_Converter</string>
+    <string name="menu_settings">Settings</string>
+     <string name="temp_options">TempOptions</string>
+     <string name="weight_options">WeightOptions</string>
+     
+    
+ 
+    
+    <string-array name="temp">
+        <item id="@+id/sTemp_CtoF">Celcius to Farenheit</item>
+        <item id="@+id/sTemp_FtoC">Farenheit to Celcius</item>
+    </string-array>
+    
+    <string-array name="weight">
+        <item id="@+id/sWeight_PtoK">Pound to Kilogram</item>
+        <item id="@+id/sWeight_KtoP">Kilograms to Pound</item>
+    </string-array>
+ 
+</resources> 

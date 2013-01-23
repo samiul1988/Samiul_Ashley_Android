@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/my_first_background"
+    tools:context=".MyMainActivity" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/hello_sam" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+    <Button
+        android:id="@+id/tutorial1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:textStyle="bold" 
+        android:textSize="50sp" />
+
+    <Button
+        android:id="@+id/end"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="50sp"
+        android:text="End"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
